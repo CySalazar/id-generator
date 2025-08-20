@@ -21,7 +21,7 @@ A simple, fast, and secure UUID v4 generator web application that allows you to 
 
 ## 🎯 Demo
 
-[Live Demo](https://username.github.io/uuid-generator/) - Try it now!
+[Live Demo](https://cySalazar.github.io/uuid-generator/) - Try it now!
 
 ## 📸 Screenshots
 
