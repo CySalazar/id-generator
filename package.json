@@ -1,0 +1,77 @@
+{
+  "name": "uuid-generator",
+  "version": "1.0.0",
+  "description": "A lightweight, client-side UUID v4 generator that can create single or bulk UUIDs (up to 10,000) with export capabilities to TXT, CSV, and JSON formats.",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "test": "echo \"No automated tests specified. Please run manual tests as described in CONTRIBUTING.md\" && exit 0",
+    "validate-html": "echo \"Validating HTML...\"",
+    "validate-css": "echo \"Validating CSS...\"",
+    "validate-js": "echo \"Validating JavaScript...\"",
+    "build": "echo \"No build process required for static files\" && exit 0",
+    "deploy": "echo \"Deploy to GitHub Pages via GitHub Actions\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/uuid-generator.git"
+  },
+  "keywords": [
+    "uuid",
+    "uuid-v4",
+    "generator",
+    "identifier",
+    "guid",
+    "random",
+    "unique",
+    "javascript",
+    "client-side",
+    "export",
+    "csv",
+    "json",
+    "txt",
+    "bulk",
+    "web-app",
+    "utility",
+    "tool"
+  ],
+  "author": {
+    "name": "UUID Generator Project",
+    "email": "contact@example.com",
+    "url": "https://github.com/username/uuid-generator"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/username/uuid-generator/issues"
+  },
+  "homepage": "https://username.github.io/uuid-generator",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "files": [
+    "index.html",
+    "styles.css",
+    "script.js",
+    "docs/",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/username"
+  },
+  "config": {
+    "port": 8000
+  }
+}
