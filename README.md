@@ -19,10 +19,6 @@ A simple, fast, and secure UUID v4 generator web application that allows you to 
 - **Accessibility**: Full keyboard navigation and screen reader support
 - **Modern UI**: Clean, intuitive interface with smooth animations
 
-## 🎯 Demo
-
-[Live Demo](https://cySalazar.github.io/uuid-generator/) - Try it now!
-
 ## 📸 Screenshots
 
 ![UUID Generator Interface](docs/images/screenshot-main.png)
