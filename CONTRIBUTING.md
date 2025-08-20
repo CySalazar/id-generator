@@ -15,11 +15,11 @@ This section guides you through submitting a bug report for UUID Generator. Foll
 **Before Submitting A Bug Report**
 
 - Check the [documentation](docs/) for a list of common questions and problems.
-- Perform a [cursory search](https://github.com/username/uuid-generator/issues) to see if the problem has already been reported.
+- Perform a [cursory search](https://github.com/cySalazar/uuid-generator/issues) to see if the problem has already been reported.
 
 **How Do I Submit A (Good) Bug Report?**
 
-Bugs are tracked as [GitHub issues](https://github.com/username/uuid-generator/issues). Create an issue and provide the following information:
+Bugs are tracked as [GitHub issues](https://github.com/cySalazar/uuid-generator/issues). Create an issue and provide the following information:
 
 - **Use a clear and descriptive title** for the issue to identify the problem.
 - **Describe the exact steps which reproduce the problem** in as many details as possible.
@@ -39,12 +39,12 @@ This section guides you through submitting an enhancement suggestion for UUID Ge
 
 **Before Submitting An Enhancement Suggestion**
 
-- Check if the enhancement has already been suggested by searching [existing issues](https://github.com/username/uuid-generator/issues).
+- Check if the enhancement has already been suggested by searching [existing issues](https://github.com/cySalazar/uuid-generator/issues).
 - Check if the feature already exists in the latest version.
 
 **How Do I Submit A (Good) Enhancement Suggestion?**
 
-Enhancement suggestions are tracked as [GitHub issues](https://github.com/username/uuid-generator/issues). Create an issue and provide the following information:
+Enhancement suggestions are tracked as [GitHub issues](https://github.com/cySalazar/uuid-generator/issues). Create an issue and provide the following information:
 
 - **Use a clear and descriptive title** for the issue to identify the suggestion.
 - **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
@@ -58,8 +58,8 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/userna
 
 Unsure where to begin contributing to UUID Generator? You can start by looking through these `beginner` and `help-wanted` issues:
 
-- [Beginner issues](https://github.com/username/uuid-generator/labels/beginner) - issues which should only require a few lines of code, and a test or two.
-- [Help wanted issues](https://github.com/username/uuid-generator/labels/help%20wanted) - issues which should be a bit more involved than `beginner` issues.
+- [Beginner issues](https://github.com/cySalazar/uuid-generator/labels/beginner) - issues which should only require a few lines of code, and a test or two.
+- [Help wanted issues](https://github.com/cySalazar/uuid-generator/labels/help%20wanted) - issues which should be a bit more involved than `beginner` issues.
 
 ### Pull Requests
 
@@ -265,7 +265,7 @@ class UUIDGenerator {
 
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/yourusername/uuid-generator.git
+   git clone https://github.com/yourcySalazar/uuid-generator.git
    cd uuid-generator
    ```
 

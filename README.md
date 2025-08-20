@@ -1,9 +1,9 @@
 # UUID Generator
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![GitHub release](https://img.shields.io/github/release/username/uuid-generator.svg)](https://github.com/username/uuid-generator/releases)
-[![GitHub issues](https://img.shields.io/github/issues/username/uuid-generator.svg)](https://github.com/username/uuid-generator/issues)
-[![GitHub stars](https://img.shields.io/github/stars/username/uuid-generator.svg)](https://github.com/username/uuid-generator/stargazers)
+[![GitHub release](https://img.shields.io/github/release/cySalazar/uuid-generator.svg)](https://github.com/cySalazar/uuid-generator/releases)
+[![GitHub issues](https://img.shields.io/github/issues/cySalazar/uuid-generator.svg)](https://github.com/cySalazar/uuid-generator/issues)
+[![GitHub stars](https://img.shields.io/github/stars/cySalazar/uuid-generator.svg)](https://github.com/cySalazar/uuid-generator/stargazers)
 
 A simple, fast, and secure UUID v4 generator web application that allows you to generate single or multiple UUIDs (up to 10,000 at once) with convenient copy and export functionality.
 
@@ -31,14 +31,14 @@ A simple, fast, and secure UUID v4 generator web application that allows you to 
 
 ### Option 1: Download Release
 
-1. Download the latest release from [GitHub Releases](https://github.com/username/uuid-generator/releases)
+1. Download the latest release from [GitHub Releases](https://github.com/cySalazar/uuid-generator/releases)
 2. Extract the files to your desired directory
 3. Open `index.html` in your web browser
 
 ### Option 2: Clone Repository
 
 ```bash
-git clone https://github.com/username/uuid-generator.git
+git clone https://github.com/cySalazar/uuid-generator.git
 cd uuid-generator
 ```
 
@@ -218,34 +218,108 @@ npm run test:a11y
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions from the community! Whether you want to fix bugs, add new features, improve documentation, or suggest enhancements, your input is valuable to us.
 
-### How to Contribute
+### Ways to Contribute
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+#### 🐛 Bug Reports
+Found a bug? Help us fix it!
+
+1. **Check existing issues** first to avoid duplicates
+2. **Create a detailed bug report** using our [bug report template](https://github.com/cySalazar/uuid-generator/issues/new?template=bug_report.md)
+3. **Include steps to reproduce** the issue
+4. **Provide browser/OS information** and screenshots if applicable
+
+#### ✨ Feature Requests
+Have an idea for a new feature or improvement?
+
+1. **Search existing feature requests** to see if it's already been suggested
+2. **Open a feature request** using our [feature request template](https://github.com/cySalazar/uuid-generator/issues/new?template=feature_request.md)
+3. **Describe the problem** you're trying to solve
+4. **Explain your proposed solution** and why it would be beneficial
+5. **Consider the scope** - smaller, focused features are easier to implement
+
+#### 🔧 Code Contributions
+Ready to contribute code? Great!
+
+1. **Fork the repository** and create your feature branch
+2. **Follow our coding standards** (see [Development Guidelines](docs/development.md))
+3. **Write tests** for new functionality when applicable
+4. **Update documentation** if your changes affect user-facing features
+5. **Submit a pull request** with a clear description of your changes
+
+#### 📚 Documentation
+Help improve our documentation!
+
+- Fix typos or unclear explanations
+- Add examples or use cases
+- Translate documentation to other languages
+- Create tutorials or guides
 
 ### Development Setup
 
 ```bash
-# Clone your fork
-git clone https://github.com/yourusername/uuid-generator.git
+# Fork the repository on GitHub, then clone your fork
+git clone https://github.com/cySalazar/uuid-generator.git
 cd uuid-generator
 
 # Create a branch for your feature
 git checkout -b feature/your-feature-name
 
-# Make your changes and test
-# ...
+# Make your changes and test thoroughly
+# Test in multiple browsers and screen sizes
 
-# Commit and push
+# Commit your changes with a descriptive message
 git add .
-git commit -m "Description of your changes"
+git commit -m "feat: add new UUID validation feature"
+
+# Push to your fork and create a pull request
 git push origin feature/your-feature-name
 ```
+
+### Coding Standards
+
+- **JavaScript**: Use ES6+ features, follow consistent naming conventions
+- **CSS**: Use BEM methodology for class naming, maintain responsive design
+- **HTML**: Ensure semantic markup and accessibility compliance
+- **Comments**: Write clear, concise comments for complex logic
+- **Testing**: Test your changes across different browsers and devices
+
+### Pull Request Guidelines
+
+1. **Use descriptive titles** that clearly explain what the PR does
+2. **Reference related issues** using keywords like "Fixes #123" or "Closes #456"
+3. **Provide detailed description** of changes and reasoning
+4. **Include screenshots** for UI changes
+5. **Ensure all tests pass** and no new console errors are introduced
+6. **Keep PRs focused** - one feature or fix per PR when possible
+
+### Community Guidelines
+
+- **Be respectful** and constructive in all interactions
+- **Help others** by answering questions and reviewing PRs
+- **Follow our [Code of Conduct](CODE_OF_CONDUCT.md)**
+- **Be patient** - maintainers review contributions in their spare time
+
+### Getting Help
+
+Need help contributing? Here are some resources:
+
+- **[Development Guide](docs/development.md)** - Detailed development instructions
+- **[Architecture Documentation](docs/architecture.md)** - Understanding the codebase
+- **[GitHub Discussions](https://github.com/cySalazar/uuid-generator/discussions)** - Ask questions and get help
+- **[Discord Community](https://discord.gg/uuid-generator)** - Real-time chat with contributors
+
+### Recognition
+
+We value all contributions! Contributors will be:
+
+- **Listed in our [Contributors](CONTRIBUTORS.md) file**
+- **Mentioned in release notes** for significant contributions
+- **Invited to join** our contributor Discord channel
+- **Given credit** in documentation for major features
+
+For detailed contributing guidelines, please see our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## 📝 Changelog
 
@@ -297,8 +371,8 @@ You can generate up to 10,000 UUIDs at once. This limit ensures good performance
 ## 📞 Support
 
 - **Documentation**: Check the [docs](docs/) folder for detailed guides
-- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/username/uuid-generator/issues)
-- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/username/uuid-generator/discussions)
+- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/cySalazar/uuid-generator/issues)
+- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/cySalazar/uuid-generator/discussions)
 - **Email**: Contact us at support@example.com
 
 ## 📄 License
@@ -338,6 +412,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 Made with ❤️ by the UUID Generator Team
 
-[Website](https://username.github.io/uuid-generator/) • [Documentation](docs/) • [Issues](https://github.com/username/uuid-generator/issues) • [License](LICENSE)
+[Website](https://cySalazar.github.io/uuid-generator/) • [Documentation](docs/) • [Issues](https://github.com/cySalazar/uuid-generator/issues) • [License](LICENSE)
 
 </div>
